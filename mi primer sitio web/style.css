@@ -1,0 +1,90 @@
+body{
+   margin: 0;
+   padding-top: 800px;
+   text-align: center;
+   background-color:green;
+}
+.profile{
+   border-radius: 65%;
+}
+#welcome {
+   position: absolute;
+   bottom:0;
+   background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+   display: table;
+   width: 100%;
+   height: 100%;    
+}
+h1 {
+   font-size: 40px;
+   font-family: Moon Dance;
+   font-weight: 300;
+}
+#name {
+   font-size: 50px;
+   font-family: Moon Dance;
+}
+h2 {
+   font-size: 30px;
+   font-family: Cambria;
+   font-weight: 300;
+}
+#bio {
+   font-family: 'Moon Dance';
+   padding: 60px;
+}
+.line{
+   height: 6px;
+   background-color: rgb(208, 143, 238);
+   width: 70px;
+   margin: 8px auto;
+}
+.parallaz-inner{
+   display: table-cell;
+   vertical-align: middle;
+}
+
+.menu{
+position: fixed;
+background: rgb(68, 0, 255);
+width: 100%;
+margin-top:0px;
+top:0px;
+z-index:10;
+}
+
+.links{
+   float: left;
+   padding-top: 5px;
+   padding-left: 9px;
+   padding-right: 9px;
+   padding-bottom: 5px;
+   font-family: fantasy;
+   font-size: 20px;
+}
+p{
+   font-size: 35px;
+}
+
+.links:hover{
+   font-size: 25px;
+   text-decoration: underline;
+}
+a{
+   text-decoration:none;
+}
+
+#writings a{
+   text-decoration: underline !important;
+   color:rgb(0, 255, 17) !important;
+}
+
+#contact{
+   background-color:#27ae60;
+}
+#contact iframe{
+   width:100%;
+}
+.contact_1 h3{
+   display: inline;
+}
